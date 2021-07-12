@@ -8,14 +8,10 @@ const server= http.createServer(app);
 
 
 
-app.set('port', process.env.PORT || 3000);
-
-
-
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-
-server.listen(app.get('port'),()=>{
-    console.log('Server abierto en el puerto 3000');
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
 });
