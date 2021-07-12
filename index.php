@@ -1,1 +1,1 @@
-<?php require_once("./src/public/index.html"); ?>
+<?php require_once("../../index.html"); ?>
