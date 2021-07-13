@@ -1,5 +1,5 @@
 function actualizarHora(){
-		// Obtenemos la fecha actual, incluyendo las horas, minutos, segundos, dia de la semana, dia del mes, mes y año;
+		
 		var fecha = new Date(),
                 segundos = fecha.getSeconds(),
                 minutos = fecha.getMinutes(),
